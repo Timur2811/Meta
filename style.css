@@ -1,5 +1,5 @@
 body{
-    
+    margin: 0px;
     background-color: black;
 }
 
@@ -336,5 +336,97 @@ p .title{
   color: white;
 }
 /* section fourth_content end */
+/*fifth start*/
 
+.fifth_content{
+  height: 200px;
+  background: url(img/woman.png) no-repeat;
+  width:100%;
+  background-size: 100%;
+}
+
+
+/*fifth end*/
+/*sixth start*/
+.roadmap{
+  color: #fff;
+  font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 118px;
+  margin-bottom: 106px;
+}
+
+.blocks{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.block1_1{
+  color: #fff;
+  background-color: #222222;
+  border-color: #8DFD1B;
+  border-style: solid;
+  height: 271px;
+  width: 540px;
+
+  display: flex;
+  justify-content: flex-start;
+
+
+}
+.block2_2{
+  color: #fff;
+  margin-top: 140px;
+  background-color: #222222;
+  border-color: #8DFD1B;
+  border-style: solid;
+  height: 329px;
+  width: 540px;
+
+  display: flex;
+  justify-content: flex-start;
+}
+.block3_3{
+  color: #fff;
+  margin-top: 140px;
+  background-color: #222222;
+  border-color: #8DFD1B;
+  border-style: solid;
+  height: 290px;
+  width: 540px;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+.block_text{
+  margin-left: 10px;
+}
+
+.block_text_p{
+  
+  color: #8DFD1B;
+  font-size: 12px;
+}
+.number{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.number button{
+  width: 45px;
+  height: 45px;
+  font-size: 28px;
+  color: #8DFD1B;
+  background-color: #222222;
+  border-color: #8DFD1B;
+}
+.number button:hover{
+  color: #000;
+  background-color: #8DFD1B;
+  border-color: #8DFD1B;
+}
 
